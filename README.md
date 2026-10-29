@@ -62,7 +62,6 @@ make run
 ### Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for details on submitting issues and pull requests.
-AI coding agents should review [AGENTS.md](AGENTS.md) before making modifications.
 
 ### License
 
