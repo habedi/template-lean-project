@@ -7,11 +7,11 @@
 </div>
 <br>
 
-[![Tests](https://img.shields.io/github/actions/workflow/status/habedi/template-lean-project/tests.yml?label=tests&style=flat&labelColor=282c34&color=4caf50&logo=github)](https://github.com/habedi/template-lean-project/actions/workflows/tests.yml)
-[![Lints](https://img.shields.io/github/actions/workflow/status/habedi/template-lean-project/lints.yml?label=lints&style=flat&labelColor=282c34&color=4caf50&logo=github)](https://github.com/habedi/template-lean-project/actions/workflows/lints.yml)
+[![Tests](https://img.shields.io/github/actions/workflow/status/habedi/template-lean-project/tests.yml?label=tests&style=flat&labelColor=282c34&logo=github)](https://github.com/habedi/template-lean-project/actions/workflows/tests.yml)
+[![Lints](https://img.shields.io/github/actions/workflow/status/habedi/template-lean-project/lints.yml?label=lints&style=flat&labelColor=282c34&logo=github)](https://github.com/habedi/template-lean-project/actions/workflows/lints.yml)
 [![Lean Version](https://img.shields.io/badge/lean-4.16.0-blue.svg?style=flat&labelColor=282c34&logo=lean)](https://github.com/leanprover/lean4)
-[![Release](https://img.shields.io/github/release/habedi/template-lean-project.svg?style=flat&labelColor=282c34&color=f46623&logo=github)](https://github.com/habedi/template-lean-project/releases/latest)
 [![License](https://img.shields.io/badge/license-MIT%2FApache--2.0-007ec6?style=flat&labelColor=282c34&logo=open-source-initiative)](https://github.com/habedi/template-lean-project)
+[![Release](https://img.shields.io/github/release/habedi/template-lean-project.svg?style=flat&labelColor=282c34&color=f46623&logo=github)](https://github.com/habedi/template-lean-project/releases/latest)
 
 ---
 
@@ -62,7 +62,6 @@ make run
 ### Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md) for details on submitting issues and pull requests.
-AI coding agents should review [AGENTS.md](AGENTS.md) before making modifications.
 
 ### License
 
