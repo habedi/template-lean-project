@@ -2,7 +2,7 @@
 
 <div align="center">
   <picture>
-    <img alt="Lean Logo" src="docs/assets/logos/lean-logo.svg" height="25%" width="25%">
+    <img alt="Lean Logo" src="docs/assets/logos/lean-logo.svg" width="40%">
   </picture>
 </div>
 <br>
