@@ -44,3 +44,4 @@ jobs:
         uses: leanprover/lean-action@v1
         with:
           test: true
+          mathlib-cache: true

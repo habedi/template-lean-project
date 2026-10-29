@@ -26,9 +26,14 @@ test: ## Run the Lean test suite
 	@$(LAKE) test
 
 .PHONY: run
-run: build ## Build and run the main executable
-	@echo "Running $(BINARY_NAME)..."
-	@$(LAKE) exe $(BINARY_NAME)
+run: ## Run the main entry point (Main.lean) in the Lake environment
+	@echo "Running Main.lean..."
+	@$(LAKE) env lean --run Main.lean
+
+.PHONY: cache-get
+cache-get: ## Download precompiled Mathlib build cache
+	@echo "Fetching Mathlib build cache..."
+	@$(LAKE) exe cache get
 
 .PHONY: check
 check: ## Verify build targets and test driver configuration
@@ -47,10 +52,10 @@ update: ## Update package dependencies and manifest
 	@$(LAKE) update
 
 .PHONY: clean
-clean: ## Remove Lake build artifacts and cache
+clean: ## Remove package build artifacts
 	@echo "Cleaning build artifacts..."
-	@$(LAKE) clean
-	@rm -rf .lake/build
+	@$(LAKE) clean «template-lean-project»
+	@rm -rf .lake/build/lib/TemplateLeanProject* .lake/build/ir/TemplateLeanProject* .lake/build/lib/Tests* .lake/build/ir/Tests*
 
 .PHONY: install-deps
 install-deps: ## Install elan (Lean toolchain manager)

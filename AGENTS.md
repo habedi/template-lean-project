@@ -4,13 +4,14 @@ This file provides guidance to coding agents collaborating on this repository.
 
 ## Mission
 
-This repository is a template for Lean 4 projects.
+This repository is a template for Lean 4 projects with Mathlib.
 It provides a starter project with:
 
 1. A Lake package configuration supporting both library modules and an executable binary.
-2. A test suite integrated with Lake's test runner.
-3. Continuous integration workflows for Linux, macOS, and Windows.
-4. Reproducible development environments via Nix and elan.
+2. Mathlib integration with precompiled build cache support.
+3. A test suite integrated with Lake's test runner.
+4. Continuous integration workflows for Linux, macOS, and Windows.
+5. Reproducible development environments via Nix and elan.
 
 Priorities, in order:
 
