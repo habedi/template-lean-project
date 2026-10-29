@@ -1,5 +1,9 @@
-import Mathlib.Data.Nat.Defs
-import Mathlib.Tactic
+module
+
+public import Mathlib.Data.Nat.Basic
+public import Mathlib.Tactic
+
+public section
 
 namespace TemplateLeanProject
 
@@ -12,7 +16,8 @@ def factorial : Nat → Nat
   | n + 1 => (n + 1) * factorial n
 
 /-- Factorial of zero is 1. -/
-theorem factorial_zero : factorial 0 = 1 := rfl
+theorem factorial_zero : factorial 0 = 1 := by
+  simp [factorial]
 
 /-- Factorial is always positive for any natural number. -/
 theorem factorial_pos (n : Nat) : factorial n > 0 := by
@@ -28,3 +33,5 @@ theorem add_comm_three (a b c : Nat) : a + b + c = c + b + a := by
   omega
 
 end TemplateLeanProject
+
+end
