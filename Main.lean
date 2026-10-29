@@ -1,5 +1,3 @@
-module
-
 import TemplateLeanProject
 
 def main : IO Unit := do

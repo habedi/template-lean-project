@@ -1,6 +1,6 @@
 module
 
-import TemplateLeanProject
+meta import TemplateLeanProject
 
 -- Test evaluations using #guard (elaborator-checked assertions)
 #guard TemplateLeanProject.factorial 0 == 1
