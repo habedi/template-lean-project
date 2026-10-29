@@ -1,3 +1,5 @@
+module
+
 import TemplateLeanProject
 
 -- Test evaluations using #guard (elaborator-checked assertions)
