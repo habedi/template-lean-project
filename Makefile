@@ -4,7 +4,7 @@ BINARY_NAME := template-lean-project
 export PATH := $(HOME)/.elan/bin:$(PATH)
 LAKE := $(shell command -v lake 2>/dev/null || (command -v elan >/dev/null 2>&1 && elan which lake 2>/dev/null) || echo "lake")
 ELAN := $(shell command -v elan 2>/dev/null || echo "elan")
-ASSET_DIR := assets
+ASSET_DIR := docs/assets
 SHELL := /bin/bash
 
 # Default target

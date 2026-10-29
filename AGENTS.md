@@ -49,12 +49,11 @@ Priorities, in order:
 - `Tests.lean`: Test suite executed by `lake test`.
 - `Makefile`: Common development workflows and convenience targets.
 - `flake.nix`: Nix flake defining reproducible development shells.
-- `.github/workflows/`: GitHub Actions workflows for continuous integration and releases.
+- `.github/workflows/`: GitHub Actions workflows for continuous integration.
   - `tests.yml`: Multi-platform test runner on Ubuntu, macOS, and Windows.
   - `lints.yml`: Warning checks and pre-commit hooks.
-  - `release.yml`: Cross-platform binary packaging and release publishing.
-- `assets/`: Static project assets, including the project logo.
-- `docs/`: Markdown documentation for the project.
+- `docs/`: Markdown documentation and project assets.
+  - `docs/assets/`: Static project assets, including logos and figures.
 
 ## Code Conventions
 

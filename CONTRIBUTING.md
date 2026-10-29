@@ -34,7 +34,8 @@ you would like to work on or if it has already been resolved.
 
 #### Prerequisites
 
-Make sure you have [elan](https://github.com/leanprover/elan) installed on your system or use [Nix](https://nixos.org/download.html):
+Make sure you have [elan](https://github.com/leanprover/elan) installed on your system or use [Nix](https://nixos.org/download.html)
+(with flakes enabled):
 
 ```shell
 nix develop

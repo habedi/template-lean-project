@@ -40,7 +40,7 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Setup Lean and Run Tests
+      - name: Setup Lean and run tests
         uses: leanprover/lean-action@v1
         with:
           test: true
