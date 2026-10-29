@@ -1,0 +1,50 @@
+########################
+# Lean 4 / Lake Specific
+########################
+.lake/
+lake-packages/
+*.olean
+*.ilean
+*.c.o
+*.trace
+.elan/
+
+########################
+# Build Outputs
+########################
+build/
+bin/
+target/
+dist/
+
+########################
+# Python / Dev Tooling
+########################
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+
+########################
+# IDE / Editor Files
+########################
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+*.swp
+*~
+*.bak
+*.tmp
+*.log
+
+########################
+# OS & Miscellaneous
+########################
+.DS_Store
+Thumbs.db
+.env

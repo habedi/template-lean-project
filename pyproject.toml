@@ -1,0 +1,11 @@
+[project]
+name = "template-lean-project"
+version = "0.1.0"
+description = "The Python environment for the Lean 4 template project"
+readme = "README.md"
+license = { text = "MIT OR Apache-2.0" }
+
+requires-python = ">=3.10"
+dependencies = [
+    "pre-commit>=4.0.0",
+]
