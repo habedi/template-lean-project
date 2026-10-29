@@ -10,7 +10,7 @@ package «template-lean-project» where
     ⟨`relaxedAutoImplicit, false⟩
   ]
 
-require "leanprover-community" / "mathlib" @ "git#v4.16.0"
+require "leanprover-community" / "mathlib" @ "git#v4.35.0"
 
 @[default_target]
 lean_lib «TemplateLeanProject» where

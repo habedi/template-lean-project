@@ -1,4 +1,6 @@
-import Mathlib.Data.Nat.Defs
+module
+
+import Mathlib.Data.Nat.Basic
 import Mathlib.Tactic
 
 namespace TemplateLeanProject
